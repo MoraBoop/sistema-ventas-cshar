@@ -1,0 +1,31 @@
+﻿@model List<HTGVentasMVC.Models.categoria>
+@{
+    ViewBag.Title = Model;
+}
+
+<table class="table table-hover table-striped">
+    <thead>
+        <tr class="bg-primary">
+            <th>Código</th>
+            <th>Descripción</th>
+            <th>Precio Unitario</th>
+            <th>Categoria</th>
+            <th colspan="3">Operaciones</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var objProducto in Model)
+        {
+            <tr>
+                <td>@objProducto.idCategoria</td>
+                <td>@objProducto.nombre</td>
+                <td>@objProducto.descripcion</td>
+                <td><a class="btn btn-success" href="~/Producto/Find/@objProducto.idCategoria"><span class="glyphicon glyphicon-eye-open"></span></a></td>
+                <td><a class="btn btn-info" href="~/Producto/Update/@objProducto.idCategoria"><span class="fa fa-edit"></span></a></td>
+                <td><a class="btn btn-danger" href="~/Producto/Delete/@objProducto.idCategoria"><span class="fa fa-remove"></span></a></td>
+
+            </tr>
+        }
+    </tbody>
+
+</table>

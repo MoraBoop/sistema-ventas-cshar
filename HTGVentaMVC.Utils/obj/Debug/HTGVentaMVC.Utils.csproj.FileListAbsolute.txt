@@ -1,0 +1,11 @@
+C:\Users\David\Desktop\HTGVentasMVC\HTGVentaMVC.Utils\bin\Debug\HTGVentaMVC.Utils.dll
+C:\Users\David\Desktop\HTGVentasMVC\HTGVentaMVC.Utils\bin\Debug\HTGVentaMVC.Utils.pdb
+C:\Users\David\Desktop\HTGVentasMVC\HTGVentaMVC.Utils\obj\Debug\HTGVentaMVC.Utils.csproj.CoreCompileInputs.cache
+C:\Users\David\Desktop\HTGVentasMVC\HTGVentaMVC.Utils\obj\Debug\HTGVentaMVC.Utils.dll
+C:\Users\David\Desktop\HTGVentasMVC\HTGVentaMVC.Utils\obj\Debug\HTGVentaMVC.Utils.pdb
+C:\Users\David\Desktop\HTGVentasMVC\HTGVentaMVC.Utils\obj\Debug\HTGVentaMVC.Utils.csprojAssemblyReference.cache
+C:\Users\adm\Desktop\HTGVentasMVC\HTGVentaMVC.Utils\bin\Debug\HTGVentaMVC.Utils.dll
+C:\Users\adm\Desktop\HTGVentasMVC\HTGVentaMVC.Utils\bin\Debug\HTGVentaMVC.Utils.pdb
+C:\Users\adm\Desktop\HTGVentasMVC\HTGVentaMVC.Utils\obj\Debug\HTGVentaMVC.Utils.csprojAssemblyReference.cache
+C:\Users\adm\Desktop\HTGVentasMVC\HTGVentaMVC.Utils\obj\Debug\HTGVentaMVC.Utils.dll
+C:\Users\adm\Desktop\HTGVentasMVC\HTGVentaMVC.Utils\obj\Debug\HTGVentaMVC.Utils.pdb

@@ -1,0 +1,39 @@
+﻿@model List<HTGVentasMVC.Models.ViewModels.Cliente.ClienteVM>
+@{
+    ViewBag.Title = "Lista de Clientes";
+}
+<a href="~/Reportes/wfReport.aspx">Reporte</a>
+<h2 class="text-center text-success">Listado de Clientes</h2>
+<div class="well well-sm"><a class="btn btn-primary" href="~/Cliente/Create">Nuevo</a></div>
+<table class="table table-hover table-striped">
+    <thead>
+        <tr class="bg-primary">
+            <th>Código</th>
+            <th>Nombre</th>
+            <th>Apellidos</th>
+            <th>DNI</th>
+            <th>Direccion</th>
+            <th>Teléfono</th>
+            <th colspan="3">Operaciones</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var objCliente in Model)
+        {
+        <tr>
+
+            <td>@objCliente.idCliente</td>
+            <td>@objCliente.nombre</td>
+            <td>@objCliente.apPaterno @objCliente.apMaterno</td>
+            <td>@objCliente.dni</td>
+            <td>@objCliente.direccion</td>
+            <td>@objCliente.telefono</td>            
+            <td><a class="btn btn-success" href="~/Cliente/Find/@objCliente.idCliente"><span class="glyphicon glyphicon-eye-open"></span></a></td>
+            <td><a class="btn btn-info" href="~/Cliente/Update/@objCliente.idCliente"><span class="fa fa-edit"></span></a></td>
+            <td><a class="btn btn-danger" href="~/Cliente/Eliminar/@objCliente.idCliente"><span class="fa fa-book"></span></a></td>
+        </tr>
+        }
+    </tbody>
+
+</table>
+

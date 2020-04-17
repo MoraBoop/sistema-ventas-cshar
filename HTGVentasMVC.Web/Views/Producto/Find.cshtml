@@ -1,0 +1,32 @@
+﻿@model HTGVentasMVC.Models.producto
+@{
+    ViewBag.Title = Model.nombre;
+}
+
+<ol class="breadcrumb">
+    <li><a href="~/">Clientes</a></li>
+    <li class="active">@(Model.nombre)</li>
+</ol>
+
+<div class="panel panel-default">
+    <div class="panel-heading">Informacion Personal</div>
+    <div class="panel-body">
+        <dl class="dl-horizontal">
+            <dt>Código</dt>
+            <dd>@Model.idProducto</dd>
+
+            <dt>Nombre</dt>
+            <dd>@Model.nombre</dd>
+
+            <dt>DNI</dt>
+            <dd>@Model.precioUnitario</dd>
+
+            <dt>Categoría</dt>
+            <dd>@Model.categoria</dd>
+        </dl>
+    </div>
+    <div class="form-actions">
+        |@Html.ActionLink("Regresar al Listado", "Index")
+    </div>
+</div>
+
